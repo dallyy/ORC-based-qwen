@@ -1,0 +1,4 @@
+openai
+pyperclip
+Pillow
+keyboard

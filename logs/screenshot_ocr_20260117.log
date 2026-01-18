@@ -1,0 +1,514 @@
+2026-01-17 22:14:03,101 - INFO - ==================================================
+2026-01-17 22:14:03,102 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:14:03,103 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:14:03,103 - INFO - ==================================================
+2026-01-17 22:14:03,103 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:14:03,103 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:14:03,103 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:14:05,755 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:14:05,756 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:14:05,756 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:14:05,756 - INFO - 开始发送API请求...
+2026-01-17 22:14:07,828 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:14:07,829 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\"OPENAI_API_KEY\": \"your_api_key_here\",\n\"ALIYUN_DASHSCOPE_API_KEY\": \"your_dashscope_api_key\"",
+        "reasoning_content": "",
+  ...
+2026-01-17 22:14:07,829 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:14:07,830 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\"OPENAI_API_KEY\": \"your_api_key_here\",\n\"ALIYUN_DASHSCOPE_API_KEY\": \"your_dashscope_api_key\"",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 32,
+    "total_tokens": 158,
+    "prompt_tokens_details": {
+      "image_tokens": 98,
+ ...
+2026-01-17 22:14:07,830 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:14:07,830 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:14:07,831 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:14:07,831 - INFO - 通过JSON解析成功提取识别结果，长度: 91 字符
+2026-01-17 22:14:07,831 - INFO - 识别结果: "OPENAI_API_KEY": "your_api_key_here",
+"ALIYUN_DASHSCOPE_API_KEY": "your_dashscope_api_key"
+2026-01-17 22:14:07,835 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:14:31,636 - INFO - ==================================================
+2026-01-17 22:14:31,636 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:14:31,637 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:14:31,637 - INFO - ==================================================
+2026-01-17 22:14:31,637 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:14:31,638 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:14:31,638 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:14:31,639 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:16:41,329 - INFO - ==================================================
+2026-01-17 22:16:41,330 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:16:41,331 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:16:41,331 - INFO - ==================================================
+2026-01-17 22:16:41,331 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:16:41,331 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:16:41,331 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:16:41,332 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:19:16,600 - INFO - ==================================================
+2026-01-17 22:19:16,600 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:19:16,600 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:19:16,600 - INFO - ==================================================
+2026-01-17 22:19:16,600 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:19:16,600 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:19:16,601 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:19:16,601 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:27:54,493 - INFO - ==================================================
+2026-01-17 22:27:54,493 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:27:54,493 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:27:54,493 - INFO - ==================================================
+2026-01-17 22:27:54,493 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:27:54,493 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:27:54,493 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:27:54,494 - INFO - 成功删除开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:28:00,196 - INFO - ==================================================
+2026-01-17 22:28:00,196 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:28:00,196 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:28:00,196 - INFO - ==================================================
+2026-01-17 22:28:00,197 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:28:00,197 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:28:00,197 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:28:00,197 - INFO - 创建快捷方式配置:
+2026-01-17 22:28:00,197 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:28:00,197 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 30
+2026-01-17 22:28:00,197 - INFO -   WorkingDirectory: C:\ORC_project
+2026-01-17 22:28:00,197 - INFO -   OutputPath: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:28:14,678 - ERROR - 创建快捷方式失败，返回码: 1
+2026-01-17 22:29:07,451 - INFO - ==================================================
+2026-01-17 22:29:07,451 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:29:07,451 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:29:07,452 - INFO - ==================================================
+2026-01-17 22:29:07,452 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:29:07,452 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:29:07,452 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:29:07,453 - INFO - 创建快捷方式配置:
+2026-01-17 22:29:07,453 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:29:07,453 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 30
+2026-01-17 22:29:07,453 - INFO -   WorkingDirectory: C:\ORC_project
+2026-01-17 22:29:07,453 - INFO -   OutputPath: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:29:10,277 - ERROR - 创建快捷方式失败，返回码: 1
+2026-01-17 22:31:19,745 - INFO - ==================================================
+2026-01-17 22:31:19,745 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:31:19,745 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:31:19,746 - INFO - ==================================================
+2026-01-17 22:31:19,746 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:31:19,746 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:31:19,746 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:31:19,747 - INFO - 创建快捷方式配置:
+2026-01-17 22:31:19,747 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:31:19,747 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 30
+2026-01-17 22:31:19,747 - INFO -   WorkingDirectory: C:\ORC_project
+2026-01-17 22:31:19,747 - INFO -   OutputPath: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:31:19,966 - INFO - 成功创建开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:31:40,548 - INFO - ==================================================
+2026-01-17 22:31:40,548 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:31:40,548 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:31:40,548 - INFO - ==================================================
+2026-01-17 22:31:40,548 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:31:40,549 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:31:40,549 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:31:40,549 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:31:40,549 - INFO - 预期快捷方式配置:
+2026-01-17 22:31:40,549 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:31:40,550 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 30
+2026-01-17 22:32:48,859 - INFO - ==================================================
+2026-01-17 22:32:48,859 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:32:48,861 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:32:48,861 - INFO - ==================================================
+2026-01-17 22:32:48,861 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:32:48,862 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:32:48,862 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:32:48,864 - INFO - 延迟 5 秒后激活快捷键...
+2026-01-17 22:32:53,869 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:32:57,973 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:32:57,974 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:32:57,974 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:32:57,974 - INFO - 开始发送API请求...
+2026-01-17 22:32:59,291 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:32:59,291 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --delay 60",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",...
+2026-01-17 22:32:59,292 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:32:59,292 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --delay 60",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 11,
+    "total_tokens": 110,
+    "prompt_tokens_details": {
+      "image_tokens": 71,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+ ...
+2026-01-17 22:32:59,293 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:32:59,293 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:32:59,293 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:32:59,293 - INFO - 通过JSON解析成功提取识别结果，长度: 35 字符
+2026-01-17 22:32:59,294 - INFO - 识别结果: python screenshot_ocr.py --delay 60
+2026-01-17 22:32:59,298 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:34:17,730 - INFO - ==================================================
+2026-01-17 22:34:17,730 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:34:17,731 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:34:17,731 - INFO - ==================================================
+2026-01-17 22:34:17,732 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:34:17,732 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:34:17,732 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:34:17,733 - INFO - 延迟 30 秒后激活快捷键...
+2026-01-17 22:34:47,746 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:34:53,205 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:34:53,205 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:34:53,205 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:34:53,205 - INFO - 开始发送API请求...
+2026-01-17 22:34:54,395 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:34:54,395 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "# \u4f7f\u7528\u573a\u666f",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "i...
+2026-01-17 22:34:54,395 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:34:54,395 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "# \u4f7f\u7528\u573a\u666f",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 4,
+    "total_tokens": 114,
+    "prompt_tokens_details": {
+      "image_tokens": 82,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+      "tex...
+2026-01-17 22:34:54,395 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:34:54,396 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:34:54,396 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:34:54,396 - INFO - 通过JSON解析成功提取识别结果，长度: 6 字符
+2026-01-17 22:34:54,396 - INFO - 识别结果: # 使用场景
+2026-01-17 22:34:54,398 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:35:42,195 - INFO - ==================================================
+2026-01-17 22:35:42,195 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:35:42,195 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:35:42,195 - INFO - ==================================================
+2026-01-17 22:35:42,196 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:35:42,196 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:35:42,196 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:35:42,197 - INFO - 成功删除开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:35:49,459 - INFO - ==================================================
+2026-01-17 22:35:49,459 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:35:49,460 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:35:49,460 - INFO - ==================================================
+2026-01-17 22:35:49,460 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:35:49,460 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:35:49,460 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:35:53,343 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:35:53,343 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:35:53,343 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:35:53,344 - INFO - 开始发送API请求...
+2026-01-17 22:35:55,293 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:35:55,295 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --check-autostart",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": ...
+2026-01-17 22:35:55,298 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:35:55,304 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --check-autostart",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 11,
+    "total_tokens": 119,
+    "prompt_tokens_details": {
+      "image_tokens": 80,
+      "text_tokens": 28
+    },
+    "completion_tokens_detai...
+2026-01-17 22:35:55,309 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:35:55,312 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:35:55,314 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:35:55,315 - INFO - 通过JSON解析成功提取识别结果，长度: 42 字符
+2026-01-17 22:35:55,317 - INFO - 识别结果: python screenshot_ocr.py --check-autostart
+2026-01-17 22:35:55,327 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:35:55,415 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:35:55,415 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:35:55,415 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:35:55,415 - INFO - 开始发送API请求...
+2026-01-17 22:35:56,675 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:35:56,676 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --check-autostart",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": ...
+2026-01-17 22:35:56,677 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:35:56,677 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "python screenshot_ocr.py --check-autostart",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 11,
+    "total_tokens": 110,
+    "prompt_tokens_details": {
+      "image_tokens": 71,
+      "text_tokens": 28
+    },
+    "completion_tokens_detail...
+2026-01-17 22:35:56,678 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:35:56,678 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:35:56,678 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:35:56,678 - INFO - 通过JSON解析成功提取识别结果，长度: 42 字符
+2026-01-17 22:35:56,679 - INFO - 识别结果: python screenshot_ocr.py --check-autostart
+2026-01-17 22:35:56,683 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:41:55,461 - INFO - ==================================================
+2026-01-17 22:41:55,461 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:41:55,462 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:41:55,462 - INFO - ==================================================
+2026-01-17 22:41:55,462 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:41:55,464 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:41:55,464 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:41:55,464 - INFO - 开机启动快捷方式不存在
+2026-01-17 22:42:13,134 - INFO - ==================================================
+2026-01-17 22:42:13,134 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:42:13,134 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:42:13,135 - INFO - ==================================================
+2026-01-17 22:42:13,135 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:42:13,135 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:42:13,135 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:42:13,138 - INFO - 延迟 5 秒后激活快捷键...
+2026-01-17 22:42:18,142 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:42:22,476 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:42:22,476 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:42:22,477 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:42:22,477 - INFO - 开始发送API请求...
+2026-01-17 22:42:23,432 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:42:23,432 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u5ef6",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "log...
+2026-01-17 22:42:23,432 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:42:23,432 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u5ef6",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 2,
+    "total_tokens": 102,
+    "prompt_tokens_details": {
+      "image_tokens": 72,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+      "text_tokens": 2
+    }
+ ...
+2026-01-17 22:42:23,433 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:42:23,433 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:42:23,433 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:42:23,433 - INFO - 通过JSON解析成功提取识别结果，长度: 1 字符
+2026-01-17 22:42:23,433 - INFO - 识别结果: 延
+2026-01-17 22:42:23,436 - INFO - 成功复制识别结果到剪贴板
+2026-01-17 22:43:23,092 - INFO - ==================================================
+2026-01-17 22:43:23,092 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:43:23,092 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:43:23,093 - INFO - ==================================================
+2026-01-17 22:43:23,093 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:43:23,093 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:43:23,093 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:43:23,094 - INFO - 延迟 3 秒后激活快捷键...
+2026-01-17 22:43:26,097 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:44:24,671 - INFO - ==================================================
+2026-01-17 22:44:24,671 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:44:24,672 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:44:24,672 - INFO - ==================================================
+2026-01-17 22:44:24,672 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:44:24,673 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:44:24,673 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:44:24,674 - INFO - 创建快捷方式配置:
+2026-01-17 22:44:24,674 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:44:24,674 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 30
+2026-01-17 22:44:24,674 - INFO -   WorkingDirectory: C:\ORC_project
+2026-01-17 22:44:24,674 - INFO -   OutputPath: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:44:24,862 - INFO - 成功创建开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:46:02,800 - INFO - ==================================================
+2026-01-17 22:46:02,800 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:46:02,802 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:46:02,802 - INFO - ==================================================
+2026-01-17 22:46:02,802 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:46:02,802 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:46:02,803 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:46:02,804 - INFO - 延迟 30 秒后激活快捷键...
+2026-01-17 22:46:32,818 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:48:49,313 - INFO - ==================================================
+2026-01-17 22:48:49,313 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:48:49,313 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:48:49,313 - INFO - ==================================================
+2026-01-17 22:48:49,314 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:48:49,314 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:48:49,314 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:48:49,315 - INFO - 成功删除开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:48:55,258 - INFO - ==================================================
+2026-01-17 22:48:55,259 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:48:55,259 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:48:55,259 - INFO - ==================================================
+2026-01-17 22:48:55,259 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:48:55,260 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:48:55,260 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:48:55,261 - INFO - 创建快捷方式配置:
+2026-01-17 22:48:55,261 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-17 22:48:55,261 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 1
+2026-01-17 22:48:55,261 - INFO -   WorkingDirectory: C:\ORC_project
+2026-01-17 22:48:55,261 - INFO -   OutputPath: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:48:55,451 - INFO - 成功创建开机启动快捷方式: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-17 22:50:10,352 - INFO - ==================================================
+2026-01-17 22:50:10,352 - INFO - Screenshot OCR 工具启动
+2026-01-17 22:50:10,354 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260117.log
+2026-01-17 22:50:10,354 - INFO - ==================================================
+2026-01-17 22:50:10,354 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-17 22:50:10,354 - INFO - 从配置文件成功加载API密钥
+2026-01-17 22:50:10,354 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-17 22:50:10,355 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-17 22:50:11,356 - INFO - 延迟结束，快捷键已激活
+2026-01-17 22:50:20,496 - INFO - 开始调用OCR API进行文字识别
+2026-01-17 22:50:20,496 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-17 22:50:20,496 - INFO - 使用模型: qwen3-vl-plus
+2026-01-17 22:50:20,497 - INFO - 开始发送API请求...
+2026-01-17 22:50:21,726 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-17 22:50:21,726 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6d6e\u83b2\u5b50 LV1\n\u5c31\u662f\u672c\u4eba",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_rea...
+2026-01-17 22:50:21,726 - INFO - 使用JSON字符串解析API响应
+2026-01-17 22:50:21,726 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6d6e\u83b2\u5b50 LV1\n\u5c31\u662f\u672c\u4eba",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 9,
+    "total_tokens": 111,
+    "prompt_tokens_details": {
+      "image_tokens": 74,
+      "text_tokens": 28
+    },
+    "completion_tokens_...
+2026-01-17 22:50:21,727 - INFO - 成功将响应解析为JSON对象
+2026-01-17 22:50:21,727 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-17 22:50:21,727 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-17 22:50:21,727 - INFO - 通过JSON解析成功提取识别结果，长度: 12 字符
+2026-01-17 22:50:21,727 - INFO - 识别结果: 浮莲子 LV1
+就是本人
+2026-01-17 22:50:21,728 - INFO - 成功复制识别结果到剪贴板
