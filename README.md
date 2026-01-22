@@ -253,6 +253,7 @@ logs/screenshot_ocr_20260117.log
 - ✅ 验证API密钥是否正确
 - ✅ 查看日志中的详细错误信息
 - ✅ 检查API服务商状态
+- ✅ **OpenAI API版本问题**: 如果看到错误 "You tried to access openai.ChatCompletion"，请确保使用 `openai>=1.0.0` 版本。程序已更新使用新版API，运行 `pip install --upgrade openai` 或 `pip install -r requirements.txt`
 
 ### 延迟启动相关问题
 
@@ -293,7 +294,7 @@ python screenshot_ocr.py --check-autostart
 
 ### 依赖包
 
-- `openai` - OpenAI API客户端
+- `openai>=1.0.0` - OpenAI API客户端 (v1.0+ 新版API，兼容阿里云DashScope)
 - `pyperclip` - 剪贴板操作
 - `Pillow` - 图像处理
 - `keyboard` - 全局快捷键

@@ -1,0 +1,531 @@
+2026-01-19 09:54:18,586 - INFO - ==================================================
+2026-01-19 09:54:18,586 - INFO - Screenshot OCR 工具启动
+2026-01-19 09:54:18,587 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260119.log
+2026-01-19 09:54:18,587 - INFO - ==================================================
+2026-01-19 09:54:18,587 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-19 09:54:18,588 - INFO - 从配置文件成功加载API密钥
+2026-01-19 09:54:18,588 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-19 09:54:18,589 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-19 09:54:19,591 - INFO - 延迟结束，快捷键已激活
+2026-01-19 12:19:41,686 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 12:19:41,686 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 12:19:41,687 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 12:19:41,687 - INFO - 开始发送API请求...
+2026-01-19 12:19:42,968 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 12:19:42,968 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "n,q=MI()",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "l...
+2026-01-19 12:19:42,968 - INFO - 使用JSON字符串解析API响应
+2026-01-19 12:19:42,969 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "n,q=MI()",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 6,
+    "total_tokens": 111,
+    "prompt_tokens_details": {
+      "image_tokens": 77,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+      "text_tokens": 6
+    }...
+2026-01-19 12:19:42,969 - INFO - 成功将响应解析为JSON对象
+2026-01-19 12:19:42,969 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 12:19:42,969 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 12:19:42,969 - INFO - 通过JSON解析成功提取识别结果，长度: 8 字符
+2026-01-19 12:19:42,969 - INFO - 识别结果: n,q=MI()
+2026-01-19 12:19:42,973 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 14:26:34,414 - INFO - ==================================================
+2026-01-19 14:26:34,414 - INFO - Screenshot OCR 工具启动
+2026-01-19 14:26:34,415 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260119.log
+2026-01-19 14:26:34,415 - INFO - ==================================================
+2026-01-19 14:26:34,415 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-19 14:26:34,415 - INFO - 从配置文件成功加载API密钥
+2026-01-19 14:26:34,415 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-19 14:26:34,417 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-19 14:26:35,418 - INFO - 延迟结束，快捷键已激活
+2026-01-19 14:26:43,785 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 14:26:43,785 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 14:26:43,785 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 14:26:43,785 - INFO - 开始发送API请求...
+2026-01-19 14:26:44,882 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 14:26:44,883 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u79cb\u79cb27...",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,...
+2026-01-19 14:26:44,883 - INFO - 使用JSON字符串解析API响应
+2026-01-19 14:26:44,883 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u79cb\u79cb27...",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 6,
+    "total_tokens": 116,
+    "prompt_tokens_details": {
+      "image_tokens": 82,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+      "text_tokens"...
+2026-01-19 14:26:44,883 - INFO - 成功将响应解析为JSON对象
+2026-01-19 14:26:44,883 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 14:26:44,884 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 14:26:44,884 - INFO - 通过JSON解析成功提取识别结果，长度: 7 字符
+2026-01-19 14:26:44,884 - INFO - 识别结果: 秋秋27...
+2026-01-19 14:26:44,885 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 14:52:55,679 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 14:52:55,680 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 14:52:55,680 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 14:52:55,681 - INFO - 开始发送API请求...
+2026-01-19 14:52:57,037 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 14:52:57,037 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u4e0b\u8f7d",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+    ...
+2026-01-19 14:52:57,037 - INFO - 使用JSON字符串解析API响应
+2026-01-19 14:52:57,037 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u4e0b\u8f7d",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 2,
+    "total_tokens": 110,
+    "prompt_tokens_details": {
+      "image_tokens": 80,
+      "text_tokens": 28
+    },
+    "completion_tokens_details": {
+      "text_tokens": 2
+ ...
+2026-01-19 14:52:57,037 - INFO - 成功将响应解析为JSON对象
+2026-01-19 14:52:57,040 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 14:52:57,040 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 14:52:57,041 - INFO - 通过JSON解析成功提取识别结果，长度: 2 字符
+2026-01-19 14:52:57,041 - INFO - 识别结果: 下载
+2026-01-19 14:52:57,041 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 15:50:12,953 - INFO - ==================================================
+2026-01-19 15:50:12,954 - INFO - Screenshot OCR 工具启动
+2026-01-19 15:50:12,955 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260119.log
+2026-01-19 15:50:12,955 - INFO - ==================================================
+2026-01-19 15:50:12,955 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-19 15:50:12,955 - INFO - 从配置文件成功加载API密钥
+2026-01-19 15:50:12,956 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-19 15:50:12,957 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-19 15:50:13,958 - INFO - 延迟结束，快捷键已激活
+2026-01-19 16:15:54,733 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 16:15:54,734 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 16:15:54,734 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 16:15:54,734 - INFO - 开始发送API请求...
+2026-01-19 16:15:56,570 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 16:15:56,571 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+        "reasoning_content": ...
+2026-01-19 16:15:56,571 - INFO - 使用JSON字符串解析API响应
+2026-01-19 16:15:56,572 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 27,
+    "total_tokens": 129,
+    "prompt_tokens_details": {
+      "image_tokens":...
+2026-01-19 16:15:56,572 - INFO - 成功将响应解析为JSON对象
+2026-01-19 16:15:56,572 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 16:15:56,573 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 16:15:56,573 - INFO - 通过JSON解析成功提取识别结果，长度: 106 字符
+2026-01-19 16:15:56,573 - INFO - 识别结果: Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+2026-01-19 16:15:56,575 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 16:19:04,290 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 16:19:04,291 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 16:19:04,291 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 16:19:04,291 - INFO - 开始发送API请求...
+2026-01-19 16:19:06,062 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 16:19:06,063 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+        "reasoning_content": ...
+2026-01-19 16:19:06,064 - INFO - 使用JSON字符串解析API响应
+2026-01-19 16:19:06,065 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 27,
+    "total_tokens": 126,
+    "prompt_tokens_details": {
+      "image_tokens": ...
+2026-01-19 16:19:06,067 - INFO - 成功将响应解析为JSON对象
+2026-01-19 16:19:06,069 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 16:19:06,069 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 16:19:06,070 - INFO - 通过JSON解析成功提取识别结果，长度: 106 字符
+2026-01-19 16:19:06,071 - INFO - 识别结果: Git: warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+2026-01-19 16:19:06,077 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 20:07:39,573 - INFO - ==================================================
+2026-01-19 20:07:39,574 - INFO - Screenshot OCR 工具启动
+2026-01-19 20:07:39,575 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260119.log
+2026-01-19 20:07:39,575 - INFO - ==================================================
+2026-01-19 20:07:39,575 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-19 20:07:39,575 - INFO - 从配置文件成功加载API密钥
+2026-01-19 20:07:39,575 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-19 20:07:39,576 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-19 20:07:40,577 - INFO - 延迟结束，快捷键已激活
+2026-01-19 22:02:28,627 - INFO - ==================================================
+2026-01-19 22:02:28,627 - INFO - Screenshot OCR 工具启动
+2026-01-19 22:02:28,627 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260119.log
+2026-01-19 22:02:28,627 - INFO - ==================================================
+2026-01-19 22:02:28,627 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-19 22:02:28,627 - INFO - 从配置文件成功加载API密钥
+2026-01-19 22:02:28,627 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-19 22:02:28,627 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-19 22:02:29,634 - INFO - 延迟结束，快捷键已激活
+2026-01-19 22:14:37,219 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:14:37,219 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:14:37,219 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:14:37,227 - INFO - 开始发送API请求...
+2026-01-19 22:14:38,178 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:14:38,178 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u5047\u5982\u6211\u662f\u738b\u540e\uff0c\u90a3\u738b\u662f\u8c01\uff1f",
+        "reasoning_content": "",
+        "role": "assistant"
+  ...
+2026-01-19 22:14:38,179 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:14:38,183 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u5047\u5982\u6211\u662f\u738b\u540e\uff0c\u90a3\u738b\u662f\u8c01\uff1f",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 10,
+    "total_tokens": 118,
+    "prompt_tokens_details": {
+      "image_tokens": 80,
+      "text_tokens": 28
+    }...
+2026-01-19 22:14:38,186 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:14:38,188 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:14:38,188 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:14:38,189 - INFO - 通过JSON解析成功提取识别结果，长度: 12 字符
+2026-01-19 22:14:38,189 - INFO - 识别结果: 假如我是王后，那王是谁？
+2026-01-19 22:14:38,191 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 22:14:42,192 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:14:42,193 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:14:42,193 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:14:42,193 - INFO - 开始发送API请求...
+2026-01-19 22:14:43,050 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:14:43,050 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "1 EDG vs NIP LPL \u7b2c\u4e00\u8d5b\u6bb5",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "...
+2026-01-19 22:14:43,050 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:14:43,050 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "1 EDG vs NIP LPL \u7b2c\u4e00\u8d5b\u6bb5",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 13,
+    "total_tokens": 135,
+    "prompt_tokens_details": {
+      "image_tokens": 94,
+      "text_tokens": 28
+    },
+    "completion_tokens_detail...
+2026-01-19 22:14:43,050 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:14:43,050 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:14:43,050 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:14:43,050 - INFO - 通过JSON解析成功提取识别结果，长度: 21 字符
+2026-01-19 22:14:43,050 - INFO - 识别结果: 1 EDG vs NIP LPL 第一赛段
+2026-01-19 22:14:43,059 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 22:21:31,603 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:21:31,603 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:21:31,603 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:21:31,603 - INFO - 开始发送API请求...
+2026-01-19 22:21:39,910 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:21:39,910 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "$$| A | = \\left| \\begin{array} { c c c c c } { { a _ { 0 } } } & { { 1 } } & { { 1 } } & { { \\cdots } } & { { 1 } } \\\\ { { 1 } } & { ...
+2026-01-19 22:21:39,910 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:21:39,910 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "$$| A | = \\left| \\begin{array} { c c c c c } { { a _ { 0 } } } & { { 1 } } & { { 1 } } & { { \\cdots } } & { { 1 } } \\\\ { { 1 } } & { { a _ { 1 } } } & { { 0 } } & { { \\cdots } } & { { 0 } } \\\\ { { 1 } } & { { 0 } } & { { a _ { 2 } } } & { { \\cdots } } & { { 0 } } \\\\ { { \\vdots } } & { { \\vdots } } & { { \\vdots } } & { { } } & { { \\vdots } } \\\\ { { 1 } } & { { 0 } } & { { 0 } } & { { \\cdots } } & { { a _ { n } } } \\e...
+2026-01-19 22:21:39,910 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:21:39,910 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:21:39,910 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:21:39,910 - INFO - 通过JSON解析成功提取识别结果，长度: 440 字符
+2026-01-19 22:21:39,910 - INFO - 识别结果: $$| A | = \left| \begin{array} { c c c c c } { { a _ { 0 } } } & { { 1 } } & { { 1 } } & { { \cdots } } & { { 1 } } \\ { { 1 } } & { { a _ { 1 } } } & { { 0 } } & { { \cdots } } & { { 0 } } \\ { { 1 } } & { { 0 } } & { { a _ { 2 } } } & { { \cdots } } & { { 0 } } \\ { { \vdots } } & { { \vdots } } & { { \vdots } } & { { } } & { { \vdots } } \\ { { 1 } } & { { 0 } } & { { 0 } } & { { \cdots } } & { { a _ { n } } } \end{array} \right| .$$
+2026-01-19 22:21:39,918 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 22:26:39,848 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:26:39,848 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:26:39,848 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:26:39,849 - INFO - 开始发送API请求...
+2026-01-19 22:26:55,001 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:26:55,001 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \n\\begin{vmatrix}\na_0 &...
+2026-01-19 22:26:55,001 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:26:55,001 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \n\\begin{vmatrix}\na_0 & 1 & 1 & \\cdots & 1 \\\\\n1 & a_1 & 0 & \\cdots & 0 \\\\\n1 & 0 & a_2 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\vdots & & \\vdots \\\\\n1 & 0 & 0 & \\cdots & a_n\n\\end{vmatrix}.\n$$\n\n\u89e3 \u7b2c $i(i=2,\\cdots,n+1)$ \u5217\u4e58\u4ee5 $-a_{i-1}^{-1}$ \u52a0\u5230\u7b2c\u4e00\u5217\u4e0a, \u5f9...
+2026-01-19 22:26:55,001 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:26:55,001 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:26:55,001 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:26:55,001 - INFO - 通过JSON解析成功提取识别结果，长度: 850 字符
+2026-01-19 22:26:55,001 - INFO - 识别结果: 求下列 $n+1$ 阶行列式的值 $(a_i \ne 0, 1 \le i \le n)$：
+
+$$
+|A| = 
+\begin{vmatrix}
+a_0 & 1 & 1 & \cdots & 1 \\
+1 & a_1 & 0 & \cdots & 0 \\
+1 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+1 & 0 & 0 & \cdots & a_n
+\end{vmatrix}.
+$$
+
+解 第 $i(i=2,\cdots,n+1)$ 列乘以 $-a_{i-1}^{-1}$ 加到第一列上, 得:
+
+$$
+|A| = 
+\begin{vmatrix}
+a_0 - \sum_{i=1}^{n} a_i^{-1} & 1 & 1 & \cdots & 1 \\
+0 & a_1 & 0 & \cdots & 0 \\
+0 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+0 & 0 & 0 & \cdots & a_n
+\end{vmatrix}
+= (a_1 a_2 \cdots a_n) \left( a_0 - \sum_{i=1}^{n} a_i^{-1} \right)
+$$
+
+计算 $n$ 阶行列式 $(a_i \ne 0)$：
+
+$$
+|A| = 
+\begin{vmatrix}
+x_1 - a_1 & x_2 & x_3 & \cdots & x_n \\
+x_1 & x_2 - a_2 & x_3 & \cdots & x_n \\
+x_1 & x_2 & x_3 - a_3 & \cdots & x_n \\
+\vdots & \vdots & \vdots & & \vdots \\
+x_1 & x_2 & x_3 & \cdots & x_n - a_n
+\end{vmatrix}.
+$$
+2026-01-19 22:26:55,009 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 22:26:59,292 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:26:59,292 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:26:59,292 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:26:59,292 - INFO - 开始发送API请求...
+2026-01-19 22:27:08,347 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:27:08,347 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \\begin{vmatrix}\na_0 & 1...
+2026-01-19 22:27:08,347 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:27:08,355 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \\begin{vmatrix}\na_0 & 1 & 1 & \\cdots & 1 \\\\\n1 & a_1 & 0 & \\cdots & 0 \\\\\n1 & 0 & a_2 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\vdots & & \\vdots \\\\\n1 & 0 & 0 & \\cdots & a_n\n\\end{vmatrix}.\n$$\n\n\u89e3 \u7b2c $i(i=2,\\cdots,n+1)$ \u5217\u4e58\u4ee5 $-a_{i-1}^{-1}$ \u52a0\u5230\u7b2c\u4e00\u5217\u4e0a, \u5f97:...
+2026-01-19 22:27:08,355 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:27:08,355 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:27:08,355 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:27:08,355 - INFO - 通过JSON解析成功提取识别结果，长度: 575 字符
+2026-01-19 22:27:08,355 - INFO - 识别结果: 求下列 $n+1$ 阶行列式的值 $(a_i \ne 0, 1 \le i \le n)$：
+
+$$
+|A| = \begin{vmatrix}
+a_0 & 1 & 1 & \cdots & 1 \\
+1 & a_1 & 0 & \cdots & 0 \\
+1 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+1 & 0 & 0 & \cdots & a_n
+\end{vmatrix}.
+$$
+
+解 第 $i(i=2,\cdots,n+1)$ 列乘以 $-a_{i-1}^{-1}$ 加到第一列上, 得:
+
+$$
+|A| = \begin{vmatrix}
+a_0 - \sum_{i=1}^n a_i^{-1} & 1 & 1 & \cdots & 1 \\
+0 & a_1 & 0 & \cdots & 0 \\
+0 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+0 & 0 & 0 & \cdots & a_n
+\end{vmatrix} = (a_1 a_2 \cdots a_n) \left( a_0 - \sum_{i=1}^n a_i^{-1} \right)
+$$
+2026-01-19 22:27:08,355 - INFO - 成功复制识别结果到剪贴板
+2026-01-19 22:27:14,663 - INFO - 开始调用OCR API进行文字识别
+2026-01-19 22:27:14,664 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-19 22:27:14,664 - INFO - 使用模型: qwen3-vl-plus
+2026-01-19 22:27:14,664 - INFO - 开始发送API请求...
+2026-01-19 22:27:28,974 - INFO - API响应类型: <class 'openai.openai_object.OpenAIObject'>
+2026-01-19 22:27:28,974 - INFO - API响应内容: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \\begin{vmatrix}\na_0 & 1...
+2026-01-19 22:27:28,974 - INFO - 使用JSON字符串解析API响应
+2026-01-19 22:27:28,974 - INFO - 响应字符串前500字符: {
+  "choices": [
+    {
+      "message": {
+        "content": "\u6c42\u4e0b\u5217 $n+1$ \u9636\u884c\u5217\u5f0f\u7684\u503c $(a_i \\ne 0, 1 \\le i \\le n)$\uff1a\n\n$$\n|A| = \\begin{vmatrix}\na_0 & 1 & 1 & \\cdots & 1 \\\\\n1 & a_1 & 0 & \\cdots & 0 \\\\\n1 & 0 & a_2 & \\cdots & 0 \\\\\n\\vdots & \\vdots & \\vdots & & \\vdots \\\\\n1 & 0 & 0 & \\cdots & a_n\n\\end{vmatrix}.\n$$\n\n\u89e3 \u7b2c $i(i=2,\\cdots,n+1)$ \u5217\u4e58\u4ee5 $-a_{i-1}^{-1}$ \u52a0\u5230\u7b2c\u4e00\u5217\u4e0a, \u5f97:...
+2026-01-19 22:27:28,974 - INFO - 成功将响应解析为JSON对象
+2026-01-19 22:27:28,974 - INFO - JSON结构: ['choices', 'object', 'usage', 'created', 'system_fingerprint', 'model', 'id']
+2026-01-19 22:27:28,974 - INFO - 找到choices，第一个choice结构: ['message', 'finish_reason', 'index', 'logprobs']
+2026-01-19 22:27:28,974 - INFO - 通过JSON解析成功提取识别结果，长度: 843 字符
+2026-01-19 22:27:28,974 - INFO - 识别结果: 求下列 $n+1$ 阶行列式的值 $(a_i \ne 0, 1 \le i \le n)$：
+
+$$
+|A| = \begin{vmatrix}
+a_0 & 1 & 1 & \cdots & 1 \\
+1 & a_1 & 0 & \cdots & 0 \\
+1 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+1 & 0 & 0 & \cdots & a_n
+\end{vmatrix}.
+$$
+
+解 第 $i(i=2,\cdots,n+1)$ 列乘以 $-a_{i-1}^{-1}$ 加到第一列上, 得:
+
+$$
+|A| = \begin{vmatrix}
+a_0 - \sum_{i=1}^n a_i^{-1} & 1 & 1 & \cdots & 1 \\
+0 & a_1 & 0 & \cdots & 0 \\
+0 & 0 & a_2 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+0 & 0 & 0 & \cdots & a_n
+\end{vmatrix} = (a_1 a_2 \cdots a_n) \left( a_0 - \sum_{i=1}^n a_i^{-1} \right)
+$$
+
+计算 $n$ 阶行列式 $(a_i \ne 0)$：
+
+$$
+|A| = \begin{vmatrix}
+x_1 - a_1 & x_2 & x_3 & \cdots & x_n \\
+x_1 & x_2 - a_2 & x_3 & \cdots & x_n \\
+x_1 & x_2 & x_3 - a_3 & \cdots & x_n \\
+\vdots & \vdots & \vdots & & \vdots \\
+x_1 & x_2 & x_3 & \cdots & x_n - a_n
+\end{vmatrix}.
+$$
+2026-01-19 22:27:28,982 - INFO - 成功复制识别结果到剪贴板

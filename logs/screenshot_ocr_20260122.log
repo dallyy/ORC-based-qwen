@@ -1,0 +1,399 @@
+2026-01-22 09:39:42,115 - INFO - ==================================================
+2026-01-22 09:39:42,115 - INFO - Screenshot OCR 工具启动
+2026-01-22 09:39:42,116 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 09:39:42,116 - INFO - ==================================================
+2026-01-22 09:39:42,116 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 09:39:42,117 - INFO - 从配置文件成功加载API密钥
+2026-01-22 09:39:42,117 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-22 09:39:42,118 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 09:39:43,119 - INFO - 延迟结束，快捷键已激活
+2026-01-22 09:41:48,311 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:41:48,311 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:41:48,311 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:41:48,311 - INFO - 开始发送API请求...
+2026-01-22 09:41:48,311 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:41:48,311 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:41:58,922 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:41:58,922 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:41:58,922 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:41:58,922 - INFO - 开始发送API请求...
+2026-01-22 09:41:58,922 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:41:58,922 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:42:18,887 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:42:18,888 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:42:18,888 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:42:18,888 - INFO - 开始发送API请求...
+2026-01-22 09:42:18,888 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:42:18,889 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:43:14,994 - INFO - ==================================================
+2026-01-22 09:43:14,994 - INFO - Screenshot OCR 工具启动
+2026-01-22 09:43:14,994 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 09:43:14,994 - INFO - ==================================================
+2026-01-22 09:43:14,994 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 09:43:14,994 - INFO - 从配置文件成功加载API密钥
+2026-01-22 09:43:14,994 - INFO - API密钥已设置，前10位: sk-35dc344...
+2026-01-22 09:43:15,000 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 09:43:16,001 - INFO - 延迟结束，快捷键已激活
+2026-01-22 09:43:18,953 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:43:18,953 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:43:18,953 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:43:18,953 - INFO - 开始发送API请求...
+2026-01-22 09:43:18,953 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:43:18,960 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:43:31,120 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:43:31,120 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:43:31,120 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:43:31,120 - INFO - 开始发送API请求...
+2026-01-22 09:43:31,120 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:43:31,120 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:45:44,389 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:45:44,389 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:45:44,389 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:45:44,389 - INFO - 开始发送API请求...
+2026-01-22 09:45:44,389 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:45:44,392 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:46:22,069 - INFO - ==================================================
+2026-01-22 09:46:22,069 - INFO - Screenshot OCR 工具启动
+2026-01-22 09:46:22,069 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 09:46:22,070 - INFO - ==================================================
+2026-01-22 09:46:22,070 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 09:46:22,070 - INFO - 从配置文件成功加载API密钥
+2026-01-22 09:46:22,070 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 09:46:22,071 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 09:46:23,072 - INFO - 延迟结束，快捷键已激活
+2026-01-22 09:46:25,904 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:46:25,904 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:46:25,904 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:46:25,904 - INFO - 开始发送API请求...
+2026-01-22 09:46:25,904 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:46:25,912 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 09:47:52,471 - INFO - ==================================================
+2026-01-22 09:47:52,471 - INFO - Screenshot OCR 工具启动
+2026-01-22 09:47:52,472 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 09:47:52,472 - INFO - ==================================================
+2026-01-22 09:47:52,473 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 09:47:52,473 - INFO - 从配置文件成功加载API密钥
+2026-01-22 09:47:52,473 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 09:47:52,475 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 09:47:53,476 - INFO - 延迟结束，快捷键已激活
+2026-01-22 09:49:53,038 - INFO - ==================================================
+2026-01-22 09:49:53,038 - INFO - Screenshot OCR 工具启动
+2026-01-22 09:49:53,038 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 09:49:53,038 - INFO - ==================================================
+2026-01-22 09:49:53,038 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 09:49:53,038 - INFO - 从配置文件成功加载API密钥
+2026-01-22 09:49:53,038 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 09:49:53,046 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 09:49:54,051 - INFO - 延迟结束，快捷键已激活
+2026-01-22 09:49:57,586 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 09:49:57,586 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 09:49:57,586 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 09:49:57,586 - INFO - 开始发送API请求...
+2026-01-22 09:49:57,586 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    completion = openai.ChatCompletion.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 09:49:57,586 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 10:01:28,647 - INFO - ==================================================
+2026-01-22 10:01:28,647 - INFO - Screenshot OCR 工具启动
+2026-01-22 10:01:28,647 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 10:01:28,647 - INFO - ==================================================
+2026-01-22 10:01:28,647 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 10:01:28,648 - INFO - 从配置文件成功加载API密钥
+2026-01-22 10:01:28,648 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 10:01:45,058 - INFO - ==================================================
+2026-01-22 10:01:45,058 - INFO - Screenshot OCR 工具启动
+2026-01-22 10:01:45,058 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 10:01:45,059 - INFO - ==================================================
+2026-01-22 10:01:45,059 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 10:01:45,059 - INFO - 从配置文件成功加载API密钥
+2026-01-22 10:01:45,059 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 10:01:45,061 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-22 10:01:45,062 - INFO - 预期快捷方式配置:
+2026-01-22 10:01:45,062 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-22 10:01:45,062 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 1
+2026-01-22 10:01:56,201 - INFO - ==================================================
+2026-01-22 10:01:56,201 - INFO - Screenshot OCR 工具启动
+2026-01-22 10:01:56,201 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 10:01:56,201 - INFO - ==================================================
+2026-01-22 10:01:56,202 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 10:01:56,202 - INFO - 从配置文件成功加载API密钥
+2026-01-22 10:01:56,202 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 10:01:56,203 - INFO - 开机启动已启用: C:\Users\dally\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Screenshot_OCR.lnk
+2026-01-22 10:01:56,203 - INFO - 预期快捷方式配置:
+2026-01-22 10:01:56,203 - INFO -   TargetPath: C:\Users\dally\AppData\Local\Programs\Python\Python312\python.exe
+2026-01-22 10:01:56,203 - INFO -   Arguments: "C:\ORC_project\screenshot_ocr.py" --delay 1
+2026-01-22 10:04:01,345 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 10:04:01,346 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 10:04:01,346 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 10:04:01,346 - INFO - 开始发送API请求...
+2026-01-22 10:04:01,346 - ERROR - 调用OpenAI兼容API发生错误: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+Traceback (most recent call last):
+  File "C:\ORC_project\screenshot_ocr.py", line 184, in call_ocr_api
+    and self.rect is not None
+                 ^^^^^^^^^^^^
+  File "C:\Users\dally\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-01-22 10:04:01,348 - ERROR - API调用失败，建议用户检查配置
+2026-01-22 10:07:08,799 - INFO - ==================================================
+2026-01-22 10:07:08,800 - INFO - Screenshot OCR 工具启动
+2026-01-22 10:07:08,800 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 10:07:08,800 - INFO - ==================================================
+2026-01-22 10:07:08,801 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 10:07:08,801 - INFO - 从配置文件成功加载API密钥
+2026-01-22 10:07:08,801 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 10:07:08,803 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 10:07:09,803 - INFO - 延迟结束，快捷键已激活
+2026-01-22 10:07:25,315 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 10:07:25,315 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 10:07:25,315 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 10:07:25,548 - INFO - 开始发送API请求...
+2026-01-22 10:07:26,905 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-22 10:07:26,905 - INFO - API响应类型: <class 'openai.types.chat.chat_completion.ChatCompletion'>
+2026-01-22 10:07:26,913 - INFO - API响应内容: ChatCompletion(id='chatcmpl-c33fda40-a924-9b97-ab9d-2011563f8c15', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='使用Google搜索，或者输入网址', refusal=None...
+2026-01-22 10:07:26,913 - INFO - 解析新版API响应对象
+2026-01-22 10:07:26,913 - INFO - 响应对象属性: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__']...
+2026-01-22 10:07:26,913 - INFO - 找到choices，第一个choice类型: <class 'openai.types.chat.chat_completion.Choice'>
+2026-01-22 10:07:26,913 - INFO - 找到message，message类型: <class 'openai.types.chat.chat_completion_message.ChatCompletionMessage'>
+2026-01-22 10:07:26,913 - INFO - 成功提取识别结果，长度: 17 字符
+2026-01-22 10:07:26,913 - INFO - 识别结果: 使用Google搜索，或者输入网址
+2026-01-22 10:07:26,913 - INFO - 成功复制识别结果到剪贴板
+2026-01-22 10:28:56,390 - INFO - ==================================================
+2026-01-22 10:28:56,391 - INFO - Screenshot OCR 工具启动
+2026-01-22 10:28:56,391 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 10:28:56,391 - INFO - ==================================================
+2026-01-22 10:28:56,391 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 10:28:56,392 - INFO - 从配置文件成功加载API密钥
+2026-01-22 10:28:56,392 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 10:28:56,393 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 10:28:57,393 - INFO - 延迟结束，快捷键已激活
+2026-01-22 10:39:55,413 - INFO - 开始调用OCR API进行文字识别
+2026-01-22 10:39:55,413 - INFO - 使用OpenAI兼容模式调用API: https://dashscope.aliyuncs.com/compatible-mode/v1
+2026-01-22 10:39:55,413 - INFO - 使用模型: qwen3-vl-plus
+2026-01-22 10:39:55,654 - INFO - 开始发送API请求...
+2026-01-22 10:39:56,877 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-22 10:39:56,933 - INFO - API响应类型: <class 'openai.types.chat.chat_completion.ChatCompletion'>
+2026-01-22 10:39:56,933 - INFO - API响应内容: ChatCompletion(id='chatcmpl-34c89c5e-1dc8-98b4-b913-18413dd1a9d3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Codeforces', refusal=None, role=...
+2026-01-22 10:39:56,933 - INFO - 解析新版API响应对象
+2026-01-22 10:39:56,934 - INFO - 响应对象属性: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__']...
+2026-01-22 10:39:56,934 - INFO - 找到choices，第一个choice类型: <class 'openai.types.chat.chat_completion.Choice'>
+2026-01-22 10:39:56,934 - INFO - 找到message，message类型: <class 'openai.types.chat.chat_completion_message.ChatCompletionMessage'>
+2026-01-22 10:39:56,935 - INFO - 成功提取识别结果，长度: 10 字符
+2026-01-22 10:39:56,935 - INFO - 识别结果: Codeforces
+2026-01-22 10:39:56,936 - INFO - 成功复制识别结果到剪贴板
+2026-01-22 16:14:22,352 - INFO - ==================================================
+2026-01-22 16:14:22,352 - INFO - Screenshot OCR 工具启动
+2026-01-22 16:14:22,352 - INFO - 日志文件: C:\ORC_project\logs\screenshot_ocr_20260122.log
+2026-01-22 16:14:22,352 - INFO - ==================================================
+2026-01-22 16:14:22,352 - INFO - 尝试从配置文件加载API密钥: C:\ORC_project\config.json
+2026-01-22 16:14:22,352 - INFO - 从配置文件成功加载API密钥
+2026-01-22 16:14:22,352 - INFO - API密钥已设置，前10位: sk-9e407d3...
+2026-01-22 16:14:22,352 - INFO - 延迟 1 秒后激活快捷键...
+2026-01-22 16:14:23,356 - INFO - 延迟结束，快捷键已激活
